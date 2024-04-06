@@ -62,7 +62,7 @@ def process_query():
     for result in search_results:
         content += result["snippet"] + "\n"
 
-    OPENAI_API_KEY = "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"
+    OPENAI_API_KEY = "OPEN AI KEY"
 
     openai.api_key = OPENAI_API_KEY
     response = openai.Completion.create(
