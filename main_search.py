@@ -47,8 +47,8 @@ def index():
 def process_query():
     query = request.form['query']
 
-    GOOGLE_API_KEY = "AIzaSyBcrzrLfP53h-hExAIgF2FwcAIiucSdkbY"
-    GOOGLE_CX = "34bdd4c4ebf1b4b3f"
+    GOOGLE_API_KEY = "GOOGLE API KEY"
+    GOOGLE_CX = "GOOGLE CX"
 
     url = f"https://www.googleapis.com/customsearch/v1?key={GOOGLE_API_KEY}&cx={GOOGLE_CX}&q={query}"
     response = requests.get(url)
